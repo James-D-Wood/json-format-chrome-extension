@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "JSON Formatter",
+  "version": "1.0",
+  "description": "Formats JSON responses in the browser",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["http://localhost:*/*"]
+    }
+  ]
+}
